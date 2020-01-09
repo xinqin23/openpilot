@@ -17,3 +17,5 @@ $RUN "$SETUP python -m unittest discover selfdrive/loggerd"
 $RUN "$SETUP cd /tmp/openpilot/selfdrive/test/longitudinal_maneuvers && OPTEST=1 ./test_longitudinal.py"
 $RUN "$SETUP cd /tmp/openpilot/selfdrive/test/process_replay/ && ./test_processes.py"
 $RUN "$SETUP mkdir -p /data/params && cd /tmp/openpilot/selfdrive/test/ && ./test_car_models.py"
+
+
